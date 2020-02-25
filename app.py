@@ -301,7 +301,7 @@ app.layout = html.Div([
                         style={'backgroundColor': '#a1e9ff'
                         }
                     )
-                ], className='two columns', 
+                ], className='three columns', 
                 style={
                     'font-family':'Franklin Gothic Medium',
                     'marginTop': 10
@@ -316,8 +316,9 @@ app.layout = html.Div([
                             href="https://www.researchgate.net/profile/Joseph_Molitoris"),
                 ], className='two columns', 
                     style={'marginTop':5, 
-                            'marginLeft':90, 
-                            'font-family':'Franklin Gothic Medium'}),
+                            'marginLeft':15, 
+                            'font-family':'Franklin Gothic Medium',
+                            'fontSize':12}),
             ], className='row', 
                 style={'background-color':'#383838'
                         }),
@@ -363,7 +364,7 @@ app.layout = html.Div([
                         style={'backgroundColor': '#a1e9ff'
                                 }
                     )
-                ], className='two columns', 
+                ], className='three columns', 
                 style={'font-family':'Franklin Gothic Medium'}
                 ),
             ], className='row', style={'background-color': '#383838'}),
